@@ -7,6 +7,7 @@
 html {
   height: 100%;
   font-family: Times, serif;
+  font-size: 1em;
   color: white;
   text-shadow: 1px 1px 4px #00007f;
 }
@@ -25,29 +26,82 @@ body {
 
 .container {
   margin: 0px auto;
+  width: 90%;
   min-width: 450px;
+  max-width: 1000px;
+}
+
+.textGlow {
+  text-shadow: 0 0 4px lightskyblue, 0 0 8px cyan, 0 0 14px black, 0 0 20px black;
+}
+
+.boxGlow {
+  box-shadow: 0 0 4px white, 0 0 8px cyan, 0 0 30px black;
 }
 
 h1 {
   font-family: "Kaushan Script", Times, serif;
   font-weight: normal;
   text-align: center;
-  font-size: 100px;
-  text-shadow: 0px 0px 4px blue, 0px 0px 8px blue, 0px 0px 12px black, 0px 0px 20px black;
+  font-size: 8em;
+  margin-bottom: 20px;
 }
+
+.navBar {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar ul {
+  display: flex;
+  list-style-type: none;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.navBar a {
+  display: inline-block;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.navBar li:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 3px solid white;
+  padding-left: 10px;
+}
+
+.navBar li:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: 3px solid white;
+  padding-right: 10px;
+}
+
+.navBar a:visited {
+  color: white;
+}
+
+/*
+    LEADERBOARD SPECIFIC CSS
+*/
 
 #gvgTable {
   border-collapse: separate;
   border-spacing: 0px;
-  margin: 10px auto;
+  margin: 0px auto;
   border-radius: 20px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 #gvgTable caption {
-  font-size: 30px;
-  margin-bottom: 8px;
-  text-shadow: 0px 0px 2px blue, 0px 0px 4px blue, 0px 0px 8px black, 0px 0px 12px black;
+  font-weight: bold;
+  font-size: 3em;
+  padding: 10px 0px;
 }
 
 #gvgTable th {
