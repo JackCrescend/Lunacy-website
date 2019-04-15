@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url("img/HalloweenWitch.png"), linear-gradient(0deg, #001e4c, #000206);
+  background-image: url("../img/HalloweenWitch.png"), linear-gradient(0deg, #001e4c, #000206);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

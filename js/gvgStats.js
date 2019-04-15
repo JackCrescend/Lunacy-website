@@ -9,7 +9,7 @@ $(function(){
 });
 
 function readJSON() {
-  var data = $.getJSON("gvgData.json", function( json ) {
+  var data = $.getJSON("js/gvgData.json", function( json ) {
     json.guildMembers.forEach( function(player) {
       initMember(player);
     });
