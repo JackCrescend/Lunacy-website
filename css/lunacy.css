@@ -9,7 +9,6 @@ html {
   font-family: Times, serif;
   font-size: 1em;
   color: white;
-  text-shadow: 1px 1px 4px #00007f;
 }
 
 body {
@@ -66,25 +65,31 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   font-size: 1.1em;
+  text-shadow: 0 0 3px cyan;
   white-space: nowrap;
 }
 
-.navBar li:first-child {
+.navBar li:first-child a {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border-left: 3px solid white;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
-.navBar li:last-child {
+.navBar li:last-child a {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-right: 3px solid white;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .navBar a:visited {
   color: white;
+}
+
+.currentSite a {
+  background-color: rgba(0,80,100,0.9);
+  box-shadow: inset 0px 2px 4px rgba(0,0,0,0.5);
 }
 
 /*
