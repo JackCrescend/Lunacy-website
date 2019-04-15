@@ -88,6 +88,16 @@ h1 {
 }
 
 /*
+    FRONTPAGE SPECIFIC CSS
+*/
+
+.discord {
+  display: block;
+  margin: 40px auto;
+  box-shadow: 0 0 20px black;
+}
+
+/*
     LEADERBOARD SPECIFIC CSS
 */
 
