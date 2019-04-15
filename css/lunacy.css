@@ -60,6 +60,7 @@ h1 {
 
 .navBar a {
   display: inline-block;
+  color:white;
   padding: 10px;
   font-family: sans-serif;
   font-weight: bold;
