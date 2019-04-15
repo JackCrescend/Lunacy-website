@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+  font-family: Times, serif;
+  color: white;
+  text-shadow: 1px 1px 4px #00007f;
+}
+
+body {
+  background-image: url("img/HalloweenWitch.png"), linear-gradient(0deg, #001e4c, #000206);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  margin: 0px auto;
+  min-width: 450px;
+}
+
+h1 {
+  font-family: "Kaushan Script", Times, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 0px 0px 4px blue, 0px 0px 8px blue, 0px 0px 12px black, 0px 0px 20px black;
+}
+
+#gvgTable {
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+#gvgTable caption {
+  font-size: 30px;
+  margin-bottom: 8px;
+  text-shadow: 0px 0px 2px blue, 0px 0px 4px blue, 0px 0px 8px black, 0px 0px 12px black;
+}
+
+#gvgTable th {
+  background-color: rgba(60,60,120, 0.9);
+  padding: 5px 10px;
+  text-align: left;
+}
+
+#gvgTable td {
+  padding: 5px 10px;
+  border-bottom: 1px solid white;
+}
+
+#gvgTable tr:last-child td {
+  border-bottom: 0px;
+}
+
+#gvgTable tr td {
+  background-color: rgba(30,30,100, 0.9);
+}
+
+#gvgTable tr:nth-child(odd) td {
+  background-color: rgba(60,60,120, 0.9);
+}
+
+#gvgTable tr:first-child th:first-child {
+  border-top-left-radius: 20px;
+}
+
+#gvgTable tr:first-child th:last-child {
+  border-top-right-radius: 20px;
+}
+
+#gvgTable tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+#gvgTable tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
