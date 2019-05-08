@@ -19,13 +19,57 @@
         </nav>
       </header>
       <main id="contents">
-        <section id="frontpage">
-          <p>Hello, World!</p>
-        </section>
-        <section id="leaderboard" class="hidden">
+        <div id="frontpage">
+          <section class="introduction">
+            <h1>About us</h1>
+            <p>
+              Lunacy was formed on launch day, November 27th, 2018, and still going strong!
+              We aim for that happy medium between hardcore and casual, we chat daily on our discord
+              sharing tips, discussing strategies and posting anime gifs :3 We also have a full set 
+              of GrandChase-related emojis!
+            </p>
+            <div class="flex">
+              <img class="emoji" src="/img/emoji.png" />
+            </div>
+            <p>
+              The most up-to-date info you can find in discord, including recruitment status,
+              guild rules, etc.. If there's any reason you can't use discord, you can also try to contact
+              our leaders directly in-game with a PM!
+            </p>
+            <div class="leaders">
+              <div class="player player1">
+                <img src="/img/yunira.png" />
+                <div class="caption">
+                  <h2>Yunira</h2>
+                  <p>Guild Leader</p>
+                </div>
+              </div>
+              <div class="player player2">
+                <img src="/img/shade.png" />
+                <div class="caption">
+                  <h2>Shade<span>#28</span></h2>
+                  <p>Recruiter</p>
+                </div>
+              </div>
+              <div class="player player3">
+                <img src="/img/frigo.png" />
+                <div class="caption">
+                  <h2>Frigo</h2>
+                  <p>GB / GvG Leader</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <aside class="discord">
+              <iframe src="https://discordapp.com/widget?id=522571164208332810&theme=dark"></iframe>
+          </aside>
+          <div class="clear"></div>
+        </div>
+
+        <div id="leaderboard" class="hidden">
           <div class="grid">
             <!-- Top row -->
-            <p id="gridMessage">Click to sort</p>
+            <p id="gridMessage"></p>
             <div class="filter">
               <label id="filterLabel" for="filterCheck">Filter ex-members</label>
               <input id="filterCheck" type="checkbox" checked="true" />
@@ -40,7 +84,8 @@
             <!-- Data Grid -->
             <div class="dataGrid"></div>
           </div>
-        </section>
+        </div>
+        
       </main>
     </div>
 

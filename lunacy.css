@@ -7,7 +7,6 @@
 
 :root {
   min-height: 100%;
-  min-width: 500px;
   font-size: 62.5%;
 
   --tint-color: rgba(31, 93, 143, 0.9);
@@ -26,9 +25,13 @@ a, input {
 /*   BODY   */
 
 .container {
+  max-width: 90rem;
   width: 90%;
-  max-width: 80rem;
   margin: 0 auto;
+}
+
+#contents {
+  margin-bottom: 3rem;
 }
 
 body {
@@ -44,6 +47,14 @@ body {
 
 .hidden {
   display: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
   
 /*   HEADER   */
@@ -98,9 +109,94 @@ a.active {
 /*************/
 
 #frontpage {
-  background-color: rgba(20,20,40, 0.9);
+  background-color: rgba(20,20,40, 0.95);
   border: 0.1rem solid white;
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+}
+
+#frontpage h1 {
   text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4rem;
+  margin-top: -1.2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.player {
+  margin: 1rem;
+  width: 18rem;
+  display: grid;
+  grid-template-columns: 6rem 12rem;
+  grid-gap: 1rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.player img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.player h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+  margin: -0.4rem 0;
+}
+
+.player span {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+.player p {
+  font-size: 1.4rem;
+}
+
+.player2 {
+  margin-left: 3rem;
+}
+
+.player3 {
+  margin-left: 6rem;
+}
+
+/* LAYOUT CONTROLS */
+
+.introduction {
+  width: 100%;
+}
+
+.discord {
+  height: 30rem;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.discord iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media only screen and (min-width: 650px) {
+  .discord {
+    width: 25rem;
+    height: 50rem;
+    margin-top: 0;
+    margin-left: 1.5rem;
+    float: right;
+  }
+
+  .introduction {
+    width: calc(100% - 25rem - 1.5rem);
+    float: left;
+  }
 }
 
 /***************/
@@ -109,10 +205,9 @@ a.active {
 
 .grid {
   display: grid;
-  width: 60rem;
+  width: 40rem;
   margin: 0 auto;
   grid-template-columns: 2fr repeat(5, 1fr);
-  margin-bottom: 3rem;
   border: 0.1rem solid white;
   border-radius: 2rem;
 
@@ -130,18 +225,27 @@ a.active {
   grid-column-start: 4;
   grid-column-end: 7;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-right: 1rem;
   background-color: var(--first-row-color);
 }
 
 #filterLabel {
-  padding-right: 1rem;
+  text-align: center;
+}
+
+#filterCheck {
+  margin-left: 0.7rem;
+}
+
+.grid button {
+  background-color: rgb(43, 79, 177);
+  color: white;
+  border-width: 0.2rem 0.4rem;
+  border-color: rgb(55, 93, 199);
 }
 
 .grid button p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .dataGrid {

@@ -1,5 +1,5 @@
 const buttons = document.querySelectorAll(".navList a");
-const pages = document.querySelectorAll("#contents section");
+const pages = document.querySelectorAll("#contents > div");
 
 const sortPlayerName = document.querySelector("#sortPlayerName");
 const sortWarsFought = document.querySelector("#sortWarsFought");
@@ -41,6 +41,7 @@ fetch("/js/gvgData.json")
 
 frontpageButton.addEventListener('click', function(e) {
   e.preventDefault();
+  console.log("Hello");
   toggleButton("#frontpageButton");
   showPage("#frontpage");
 });
@@ -103,7 +104,7 @@ function sortData (data) {
 
   sortArrayBy("warsFought");
 
-  document.querySelector("#gridMessage").innerHTML= `Last updated: ${data.lastUpdated}`;
+  document.querySelector("#gridMessage").innerHTML= `Last updated:<br>${data.lastUpdated}`;
 
   console.log(gvgData);
 }
