@@ -21,6 +21,7 @@ const toggleButton = buttonID => {
 };
 
 const showPage = pageID => {
+  console.log(pages);
   for (let page of pages) {
     page.className = "hidden";
   }
@@ -41,7 +42,6 @@ fetch("/js/gvgData.json")
 
 frontpageButton.addEventListener('click', function(e) {
   e.preventDefault();
-  console.log("Hello");
   toggleButton("#frontpageButton");
   showPage("#frontpage");
 });

@@ -1,4 +1,6 @@
+/***************/
 /*  NORMALIZE  */
+/***************/
 
 * {
   margin: 0;
@@ -22,7 +24,9 @@ a, input {
   color: white;
 }
 
+/************/
 /*   BODY   */
+/************/
 
 .container {
   max-width: 90rem;
@@ -46,7 +50,7 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .float-right {
@@ -56,8 +60,10 @@ body {
 .clear {
   clear: both;
 }
-  
+ 
+/**************/
 /*   HEADER   */
+/**************/
 
 .banner {
   font-family: 'Kaushan Script', cursive;
@@ -113,6 +119,11 @@ a.active {
   border: 0.1rem solid white;
   border-radius: 1.2rem;
   padding: 1.5rem;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 30rem;
+  grid-gap: 1.5rem;
 }
 
 #frontpage h1 {
@@ -122,10 +133,11 @@ a.active {
   margin-top: -1.2rem;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  margin: 1.5rem;
+.emoji {
+  display: block;
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 34rem;
 }
 
 .player {
@@ -173,9 +185,8 @@ a.active {
 }
 
 .discord {
-  height: 30rem;
+  height: 100%;
   width: 100%;
-  margin-top: 1.5rem;
 }
 
 .discord iframe {
@@ -184,18 +195,14 @@ a.active {
   border: none;
 }
 
-@media only screen and (min-width: 650px) {
-  .discord {
-    width: 25rem;
-    height: 50rem;
-    margin-top: 0;
-    margin-left: 1.5rem;
-    float: right;
+@media only screen and (min-width: 750px) {
+  #frontpage {
+    grid-template-columns: auto 25rem;
+    grid-template-rows: auto;
   }
 
-  .introduction {
-    width: calc(100% - 25rem - 1.5rem);
-    float: left;
+  .discord {
+    width: 25rem;
   }
 }
 
