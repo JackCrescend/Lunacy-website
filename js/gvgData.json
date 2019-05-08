@@ -1,10 +1,10 @@
 {
+    "lastUpdated": "8th of May, 2019",
     "guildMembers": [
-        "Cres",
-        "Mikuroi",
         "Yunira",
-        "Shade",
+        "Mikuroi",
         "Frigo",
+        "Shade",
         "Jace",
         "Venas",
         "Sykot",
@@ -13,24 +13,119 @@
         "Phlake",
         "Rvbben",
         "Shinobu",
-        "kaif",
-        "Dark",
         "Neowald",
+        "kaif",
+        "Deversed",
+        "Tineki",
         "Elyàk",
+        "Warzgod",
         "Lunora",
-        "Xelark",
-        "f0xx",
-        "vivi",
+        "kevykevv",
         "BK70605",
         "Bruh",
-        "Zeykes",
-        "Ina",
-        "Elmer",
-        "Luna",
+        "vivi",
         "Ryuuzer",
-        "RandoT"
+        "skur",
+        "Ina",
+        "Luna",
+        "Negin",
+        "Devdude",
+        "Eklipze"
     ],
     "wars": [
+        {
+            "guildName": "NeverLucky",
+            "victory": true,
+            "participants": [
+                { "name": "Jace", "attack1": {"target": 11, "stars": 3 }, "attack2": {"target": 13, "stars": 3 } },
+                { "name": "Yunira", "attack1": {"target": 16, "stars": 3 }, "attack2": {"target": 17, "stars": 3 } },
+                { "name": "Rvbben", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Mikuroi", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Sykot", "attack1": {"target": 6, "stars": 3 }, "attack2": {"target": 5, "stars": 3 } },
+                { "name": "Venas", "attack1": {"target": 2, "stars": 3 }, "attack2": {"target": 4, "stars": 2 } },
+                { "name": "Kiru", "attack1": {"target": 14, "stars": 3 }, "attack2": {"target": 15, "stars": 3 } },
+                { "name": "Frigo", "attack1": {"target": 9, "stars": 3 }, "attack2": {"target": 10, "stars": 3 } },
+                { "name": "Shinobu", "attack1": {"target": 3, "stars": 3 }, "attack2": {"target": 1, "stars": 3 } },
+                { "name": "Shade", "attack1": {"target": 11, "stars": 0 }, "attack2": {"target": 12, "stars": 3 } },
+                { "name": "Neowald", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Narvo", "attack1": {"target": 8, "stars": 3 }, "attack2": {"target": 7, "stars": 3 } },
+                { "name": "Phlake", "attack1": {"target": 23, "stars": 3 }, "attack2": {"target": 20, "stars": 2 } },
+                { "name": "Warzgod", "attack1": {"target": 21, "stars": 2 }, "attack2": {"target": 22, "stars": 3 } },
+                { "name": "Deversed", "attack1": {"target": 19, "stars": 1 }, "attack2": {"target": 18, "stars": 0 } },
+                { "name": "Tineki", "attack1": {"target": 25, "stars": 3 }, "attack2": {"target": 24, "stars": 3 } },
+                { "name": "kevykevv", "attack1": {"target": 25, "stars": 1 }, "attack2": {"target": 24, "stars": 3 } },
+                { "name": "Bruh", "attack1": {"target": 21, "stars": 0 }, "attack2": {"target": 25, "stars": 1 } },
+                { "name": "vivi", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "BK70605", "attack1": {"target": 25, "stars": 1 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Lunora", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Ryuuzer", "attack1": {"target": 25, "stars": 2 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Luna", "attack1": {"target": 25, "stars": 1 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Ina", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Devdude", "attack1": {"target": 18, "stars": 0 }, "attack2": {"target": 25, "stars": 1 } }
+            ]
+        },
+        {
+            "guildName": "ToTheMax",
+            "victory": false,
+            "participants": [
+                { "name": "Jace", "attack1": {"target": 12, "stars": 3 }, "attack2": {"target": 13, "stars": 3 } },
+                { "name": "Yunira", "attack1": {"target": 3, "stars": 3 }, "attack2": {"target": 4, "stars": 3 } },
+                { "name": "Rvbben", "attack1": {"target": 11, "stars": 3 }, "attack2": {"target": 10, "stars": 3 } },
+                { "name": "Mikuroi", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "kaif", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Sykot", "attack1": {"target": 5, "stars": 3 }, "attack2": {"target": 6, "stars": 3 } },
+                { "name": "Venas", "attack1": {"target": 7, "stars": 3 }, "attack2": {"target": 1, "stars": 3 } },
+                { "name": "Frigo", "attack1": {"target": 9, "stars": 1 }, "attack2": {"target": 7, "stars": 1 } },
+                { "name": "Shinobu", "attack1": {"target": 1, "stars": 3 }, "attack2": {"target": 2, "stars": 3 } },
+                { "name": "Shade", "attack1": {"target": 14, "stars": 3 }, "attack2": {"target": 16, "stars": 3 } },
+                { "name": "Neowald", "attack1": {"target": 17, "stars": 3 }, "attack2": {"target": 20, "stars": 3 } },
+                { "name": "Kiru", "attack1": {"target": 15, "stars": 3 }, "attack2": {"target": 14, "stars": 0 } },
+                { "name": "Narvo", "attack1": {"target": 8, "stars": 3 }, "attack2": {"target": 9, "stars": 3 } },
+                { "name": "Elyàk", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Phlake", "attack1": {"target": 18, "stars": 3 }, "attack2": {"target": 19, "stars": 3 } },
+                { "name": "f0xx", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "vivi", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Bruh", "attack1": {"target": 23, "stars": 3 }, "attack2": {"target": 22, "stars": 0 } },
+                { "name": "kevykevv", "attack1": {"target": 25, "stars": 3 }, "attack2": {"target": 24, "stars": 3 } },
+                { "name": "BK70605", "attack1": {"target": 21, "stars": 3 }, "attack2": {"target": 22, "stars": 2 } },
+                { "name": "Lunora", "attack1": {"target": 22, "stars": 2 }, "attack2": {"target": 20, "stars": 0 } },
+                { "name": "Zeykes", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Luna", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Ryuuzer", "attack1": {"target": 25, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Ina", "attack1": {"target": 25, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } }
+            ]
+        },
+        {
+            "guildName": "FranceOrNo",
+            "victory": true,
+            "participants": [
+                { "name": "Jace", "attack1": {"target": 5, "stars": 3 }, "attack2": {"target": 8, "stars": 3 } },
+                { "name": "Cres", "attack1": {"target": 3, "stars": 3 }, "attack2": {"target": 1, "stars": 3 } },
+                { "name": "Rvbben", "attack1": {"target": 18, "stars": 3 }, "attack2": {"target": 19, "stars": 3 } },
+                { "name": "Yunira", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Mikuroi", "attack1": {"target": 20, "stars": 3 }, "attack2": {"target": 21, "stars": 3 } },
+                { "name": "kaif", "attack1": {"target": 6, "stars": 3 }, "attack2": {"target": 7, "stars": 3 } },
+                { "name": "Sykot", "attack1": {"target": 2, "stars": 3 }, "attack2": {"target": 4, "stars": 3 } },
+                { "name": "Dark", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Venas", "attack1": {"target": 9, "stars": 3 }, "attack2": {"target": 11, "stars": 3 } },
+                { "name": "Frigo", "attack1": {"target": 15, "stars": 3 }, "attack2": {"target": 16, "stars": 3 } },
+                { "name": "Shinobu", "attack1": {"target": 12, "stars": 3 }, "attack2": {"target": 13, "stars": 3 } },
+                { "name": "Shade", "attack1": {"target": 14, "stars": 3 }, "attack2": {"target": 17, "stars": 3 } },
+                { "name": "Kiru", "attack1": {"target": 10, "stars": 3 }, "attack2": {"target": 9, "stars": 3 } },
+                { "name": "Narvo", "attack1": {"target": 5, "stars": 0 }, "attack2": {"target": 10, "stars": 3 } },
+                { "name": "Elyàk", "attack1": {"target": 25, "stars": 3 }, "attack2": {"target": 21, "stars": 2 } },
+                { "name": "Phlake", "attack1": {"target": 23, "stars": 3 }, "attack2": {"target": 22, "stars": 3 } },
+                { "name": "f0xx", "attack1": {"target": 24, "stars": 3 }, "attack2": {"target": 22, "stars": 0 } },
+                { "name": "vivi", "attack1": {"target": 25, "stars": 0 }, "attack2": {"target": 24, "stars": 2 } },
+                { "name": "Bruh", "attack1": {"target": 25, "stars": 2 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "BK70605", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Lunora", "attack1": {"target": 19, "stars": 0 }, "attack2": {"target": 20, "stars": 0 } },
+                { "name": "Elmer", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Zeykes", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Luna", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
+                { "name": "Ina", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } }
+            ]
+        },
         {
             "guildName": "Godlike",
             "victory": false,
@@ -304,7 +399,7 @@
                 { "name": "Lunora", "attack1": {"target": 23, "stars": 0 }, "attack2": {"target": 18, "stars": 0 } },
                 { "name": "f0xx", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 29, "stars": 0 } },
                 { "name": "Ina", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
-                { "name": "Vivi", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 29, "stars": 0 } }
+                { "name": "vivi", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 29, "stars": 0 } }
             ]
         },
         {
@@ -336,7 +431,7 @@
                 { "name": "Phlake", "attack1": {"target": 30, "stars": 3 }, "attack2": {"target": 27, "stars": 3 } },
                 { "name": "Luna", "attack1": {"target": 30, "stars": 1 }, "attack2": {"target": 29, "stars": 0 } },
                 { "name": "Elmer", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } },
-                { "name": "F0xx", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 27, "stars": 0 } },
+                { "name": "f0xx", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 27, "stars": 0 } },
                 { "name": "vivi", "attack1": {"target": 30, "stars": 0 }, "attack2": {"target": 29, "stars": 0 } },
                 { "name": "Ina", "attack1": {"target": 31, "stars": 0 }, "attack2": {"target": 31, "stars": 0 } }
             ]
@@ -433,7 +528,7 @@
                 { "name": "Phlake", "attack1": {"target": 28, "stars": 3}, "attack2": {"target": 25, "stars": 3} },
                 { "name": "Lunora", "attack1": {"target": 27, "stars": 3}, "attack2": {"target": 22, "stars": 3} },
                 { "name": "vivi", "attack1": {"target": 23, "stars": 3}, "attack2": {"target": 30, "stars": 0} },
-                { "name": "ina", "attack1": {"target": 25, "stars": 1}, "attack2": {"target": 23, "stars": 3} }
+                { "name": "Ina", "attack1": {"target": 25, "stars": 1}, "attack2": {"target": 23, "stars": 3} }
             ]
         },
         {
@@ -466,7 +561,7 @@
                 { "name": "Phlake", "attack1": {"target": 30, "stars": 0}, "attack2": {"target": 29, "stars": 0} },
                 { "name": "Lunora", "attack1": {"target": 31, "stars": 0}, "attack2": {"target": 31, "stars": 0} },
                 { "name": "vivi", "attack1": {"target": 29, "stars": 0}, "attack2": {"target": 31, "stars": 0} },
-                { "name": "ina", "attack1": {"target": 31, "stars": 0}, "attack2": {"target": 31, "stars": 0} }
+                { "name": "Ina", "attack1": {"target": 31, "stars": 0}, "attack2": {"target": 31, "stars": 0} }
             ]
         },
         {

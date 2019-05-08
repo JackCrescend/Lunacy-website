@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Lunacy</title>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-  <link rel="stylesheet" href="css/lunacy.css">
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body id="index">
-  <div class="container">
-    <h1 class="textGlow">Lunacy</h1>
-    <nav class="navBar">
-      <ul class="boxGlow">
-        <li class="currentSite"><a href="index.html">Frontpage</a></li>
-        <li><a href="leaderboard.html">Leaderboard</a></li>
-        <li><a href="">Team Planner</a></li>
-      </ul>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lunacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="lunacy.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="banner">Lunacy</h1>
+        <nav>
+          <ul class="navList">
+            <li><a id="frontpageButton" class="active" href="">Frontpage</a></li>
+            <li><a id="leaderboardButton" href="">Leaderboard</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="contents">
+        <section id="frontpage">
+          <p>Hello, World!</p>
+        </section>
+        <section id="leaderboard" class="hidden">
+          <div class="grid">
+            <!-- Top row -->
+            <p id="gridMessage">Click to sort</p>
+            <div class="filter">
+              <label id="filterLabel" for="filterCheck">Filter ex-members</label>
+              <input id="filterCheck" type="checkbox" checked="true" />
+            </div>
+            <!-- Buttons row -->
+            <button id="sortPlayerName">Player</button>
+            <button id="sortWarsFought">Wars<p>fought</p></button>
+            <button id="sortStarsTotal">Stars<p>total</p></button>
+            <button id="sortStarsPercentage">Stars<p>%</p></button>
+            <button id="sortPointsTotal">Points<p>total</p></button>
+            <button id="sortPointsAverage">Points<p>avg.</p></button>
+            <!-- Data Grid -->
+            <div class="dataGrid"></div>
+          </div>
+        </section>
+      </main>
+    </div>
 
-    <iframe class="discord" src="https://discordapp.com/widget?id=522571164208332810&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0"></iframe>
-  </div>
-</body>
+    <script src="js/lunacy.js"></script>
+  </body>
 </html>
