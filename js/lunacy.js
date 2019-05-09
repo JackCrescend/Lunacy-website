@@ -111,6 +111,10 @@ function sortData (data) {
 
 function countPoints(target, stars) {
 
+  if (target >= 31 || stars === 0) {
+    return 0;
+  }
+
   let multiplier = 1;
   if (target <= 3) {
     multiplier = 5;
