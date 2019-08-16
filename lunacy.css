@@ -230,6 +230,15 @@ a.active {
   border-radius: 2rem;
 }
 
+@media all and (max-width: 1100px)
+{
+  .grid
+  {
+    font-size: 1rem;
+    width: 30rem;
+  }
+}
+
 #gridMessage {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -258,10 +267,6 @@ a.active {
   border-width: 0.2rem 0.4rem;
   background-color: var(--tint-color);
   border-color: var(--tint-color-alt);
-}
-
-.grid button p {
-  font-size: 1.1rem;
 }
 
 .dataGrid {
